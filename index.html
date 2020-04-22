@@ -1,21 +1,392 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <meta name="google-site-verification" content="pfLYJGdbNQwbN_9X49yXOAAKzMU5WiDNEnUeAyvbHa0" />
+    <!-- Google Site ID -->
+    <meta name="google-site-verification" content="pfLYJGdbNQwbN_9X49yXOAAKzMU5WiDNEnUeAyvbHa0"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164219733-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-164219733-1');
     </script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+          content="Sitio Web oficial de Zuntek. Asociacion de ingenerios para el desarrollo de soluciones informaticas para Cuba.">
+    <meta name="author" content="Zuntek">
+    <meta name="keywords"
+          content="desarrollo informatica en cuba, aplicaciones cubanas, informatica en cuba, soluciones informaticas, cuba software development">
 
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Zuntek - Soluciones Informaticas</title>
+    <link rel="icon" href="img/assets/favicon.png" type="image/png">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet'>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+
+    <!-- Third party plugin CSS -->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
-<body>
-Hello Word !!!!
+<body id="top">
+<div id="loading-cover"></div>
+
+<!-- Nav bar -->
+<nav class="navbar navbar-expand-md navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#top"><img src="img/logo/zuntek-logo.png"
+                                                                   alt="Zuntek Soluciones Informaticas para Cuba Logo"/></a>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav text-uppercase mt-3 mt-md-0">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Acerca De</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#products">Productos</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<header class="main-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-5 align-self-center mt-5">
+                <div class="row px-3 no-gutters pt-3 pt-sm-0">
+                    <div class="text-center text-lg-left">
+                        <h1 class="text-uppercase font-weight-bold">Soluciones Informáticas para Cuba</h1>
+                        <h6 class="text-white-75 font-weight-normal  mb-4">Donde hay un problema hay una solución y ahí
+                            estamos nosotros</h6>
+                    </div>
+                    <div class="col-12 col-md-6 px-md-2 px-lg-0 col-lg-5 mb-3 mb-md-0 ">
+                        <a class="btn btn-primary js-scroll-trigger w-100 " href="#about">Ver Más</a>
+                    </div>
+                    <div class="col-12 col-md-6 px-md-2 col-lg-6 ml-lg-3">
+                        <a class="btn btn-outline-primary js-scroll-trigger w-100" href="#contact">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12">
+                <img class="img-fluid" src="img/header/ingeniero-trabajando-cuba.png"
+                     alt="Ingeniero trabajando por Cuba"/>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- About -->
+<section class="page-section bg-secundary-color" id="about">
+    <div class="container">
+        <div class="row py-5">
+            <div class="text-center section-header col-12">
+                <h2 class="mt-0">Quienes Somos</h2>
+                <p class="mb-4 px-0 px-lg-5">Somos una asociación de ingenieros con la mision de contribuir con la
+                    informatización de la sociedad cubana desarrollando aplicaciones de utilidad para un amplio sector
+                    de la población</p>
+            </div>
+            <div class="col-lg-7 col-md-12 text-center">
+                <img class="img-fluid" src="img/about/equipo-ingenieros.png" alt="Equipo de Ingenieros"/>
+            </div>
+            <div class="col-lg-5 col-md-12 align-self-center mt-4">
+                <ul class="fa-ul about-list">
+                    <li>
+                        <span class="fa-li"><i class="fa fa-check-circle"></i> </span>
+                        <div class="text-area">
+                            <span class="about-list-header">Automatización de Procesos</span>
+                            <p class="mt-1">Nuestro objetivo principal es llevar a cabo la automatización de procesos
+                                mejorando su rendimiento y eficacia.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fa fa-check-circle"></i> </span>
+                        <div class="text-area">
+                            <span class="about-list-header">Aporte Economico</span>
+                            <p class="mt-1">Desarrollamos soluciones que contribuyan con el crecimiento de la economía
+                                del país.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text-area">
+                            <span class="fa-li"><i class="fa fa-check-circle"></i> </span>
+                            <span class="about-list-header">Contribución Social</span>
+                            <p class="mt-1">Nuestros productos estan orientados a fomentar el desarrollo e
+                                informatización de
+                                la
+                                sociedad.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text-area">
+                            <span class="fa-li"><i class="fa fa-check-circle"></i> </span>
+                            <span class="about-list-header">Impacto Ecológico</span>
+                            <p class="mt-1">Intentamos que nuestras soluciones tengan un impacto favorable en el cuidado
+                                del medio
+                                ambiente y los recursos ecológicos.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Services -->
+<section class="page-section bg-primary-color" id="services">
+    <div class="container">
+        <div class="row py-5">
+            <div class="text-center section-header col-12">
+                <h2 class="mt-0">Nuestros Servicios</h2>
+                <p class="mb-2">Nuestro principal servicio es el desarrollo de aplicaciones informáticas para
+                    la digitalización y automatización de procesos </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <div>
+                    <img class="img-fluid" src="img/services/icono-informatizacion-procesos.png" alt="Icono Informatizacion de Procesos"/>
+                    <h3 class="h5 mb-2">Informatizacion de Procesos</h3>
+                    <p class="text-muted mb-0">Digitalizamos y automatizamos procesos contribuyendo a su
+                        optimización</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div>
+                    <img class="img-fluid" src="img/services/icono-desarrollo-aplicaciones-web-movil.png" alt="Icono Desarrollo de aplicaciones Web y Moviles"/>
+                    <h3 class="h5 mb-2">Desarrollo de Software</h3>
+                    <p class="text-muted mb-0">Diseñamos y desarrollamos aplicaciones Web y Mobiles</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div>
+                    <img class="img-fluid" src="img/services/icono-soporte-tecnico.png" alt="Icono Soporte Tecnico"/>
+                    <h3 class="h5 mb-2">Asistencia y Soporte</h3>
+                    <p class="text-muted mb-0">Brindamos asistencia a los usuarios y soporte tecnico a nuestras
+                        aplicaciones</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technology -->
+<section class="page-section bg-primary-color" id="technology">
+    <div class="container pb-5">
+        <hr>
+        <div class="text-center section-header py-3 ">
+            <h6 class="mb-2 technology-header ">Realizamos nuestro trabajo con tecnologías modernas y libres</h6>
+        </div>
+        <div class="owl-carousel technology-slider px-lg-5 px-2 py-3">
+            <div class="item"><a href="https://www.linux.org/"><i class="fab fa-linux"></i></a></div>
+            <div class="item"><a href="https://ubuntu.com/"><i class="fab fa-ubuntu"></i></a></div>
+            <div class="item"><a href="https://about.google/intl/es/products/"><i class="fab fa-google"></i></a></div>
+            <div class="item"><a href="https://trello.com/es"><i class="fab fa-trello"></i></a></div>
+            <div class="item"><a href="https://github.com/"><i class="fab fa-github"></i></a></div>
+            <div class="item"><a href="https://git-scm.com/"><i class="fab fa-git-alt"></i></a></div>
+            <div class="item"><a href="https://laravel.com/"><i class="fab fa-laravel"></i></a></div>
+            <div class="item"><a href="https://symfony.com/"><i class="fab fa-symfony"></i></a></div>
+            <div class="item"><a href="https://angular.io/"><i class="fab fa-angular"></i></a></div>
+            <div class="item"><a href="https://es.reactjs.org/"><i class="fab fa-react"></i></a></div>
+            <div class="item"><a href="https://getbootstrap.com/"><i class="fab fa-bootstrap"></i></a></div>
+        </div>
+    </div>
+</section>
+
+<!-- Products -->
+<section class="page-section bg-secundary-color" id="products">
+    <div class="container">
+        <div class="row py-5 text-center text-lg-left">
+            <div class="col-lg-4 align-self-center mt-4">
+                <h2 class="mb-3 "> Ya estamos trabajando en nuestra primera solución</h2>
+                <p class="text-white-75 font-weight-light mb-5">Tan proto acabemos la pondremos por aquí :)</p>
+            </div>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="img/products/equipo-ingenieros-trabajando.png" alt="Equipo de Ingenieros Trabajando"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="page-section bg-primary-color" id="contact">
+    <div class="container">
+        <div class="row py-5">
+            <div class="text-center section-header col-12">
+                <h2 class="mt-0 mb-4">Contactanos</h2>
+            </div>
+            <div class="col-md-6 px-lg-5 pb-4">
+                <p class="text-justify">Si tienes alguna pregunta o sugerencia contáctanos. También nos encanta escuchar
+                    ideas y problemas con los que podamos ayudarnos a todos y al país. Puedes
+                    enviarnos tu mensaje directamente aquí, a nuestro correo electrónico o en nuestras redes sociales. </p>
+                <div>
+                    <div class="contact-box mt-5 d-flex">
+                        <a href="mailto:zuntek.cu@gmail.com">
+                            <div class="float-left mx-3">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="float-left">
+                                <h6 class="mb-1">Email</h6>
+                                <p>zuntek.cu@gmail.com</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contact-box mt-3 d-flex">
+                        <a href="https://facebook.com/zuntek">
+                            <div class="float-left mx-3">
+                                <i class="fab fa-facebook-square"></i>
+                            </div>
+                            <div class="float-left">
+                                <h6 class="mb-1">Facebook</h6>
+                                <p>facebook.com/zuntek</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="contact-box mt-3 d-flex">
+                        <a href="https://www.linkedin.com/company/zuntek">
+                            <div class="float-left mx-3">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="float-left">
+                                <h6 class="mb-1">Linkedin</h6>
+                                <p>linkedin.com/company/zuntek</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 px-lg-4 contact-form-container">
+                <form class="contact-form" id="contact-form" action="https://formsubmit.io/send/zuntek.cu@gmail.com"
+                      method="POST">
+                    <input name="_redirect" type="hidden" id="name" value="https://asd">
+                    <div class="form-field-wrapper">
+                        <input class="input-sm" type="text" name="name" placeholder="*Tu Nombre" required
+                               autocomplete="off"
+                               oninvalid="this.setCustomValidity('Necesitamos saber quien eres')"
+                               oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="form-field-wrapper">
+                        <input class="input-sm" type="email" name="email" placeholder="Email" autocomplete="off"
+                               oninvalid="this.setCustomValidity('Mmmm... esto no parece estar bien (⌣_⌣”)')"
+                               oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="form-field-wrapper">
+                        <input class="input-sm" type="text" name="subject" placeholder="*Asunto" required
+                               autocomplete="off"
+                               oninvalid="this.setCustomValidity('De que se trata?')"
+                               oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="form-field-wrapper">
+                        <textarea class="form-full" rows="6" name="message" placeholder="*Tu Mensaje" required
+                                  oninvalid="this.setCustomValidity('( ˆᴗˆ ) Cuentanos...')"
+                                  oninput="this.setCustomValidity('')"></textarea>
+                    </div>
+                    <div class="text-center text-md-left">
+                        <input type="submit" value="Enviar Mensaje" class="btn btn-primary btn-xl submit-btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Success Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row">
+                    <div class="col-lg-7 align-self-center mt-4">
+                        <img class="img-fluid" src="img/contact/asistencia-tecnica-saludo.png" alt="Asistencia Tecnica Saludo"/>
+                    </div>
+                    <div class="col-lg-5  mt-4 px-0 align-self-center text-center text-lg-left">
+                        <h3 class="text-uppercase font-weight-bold">Gracias por Contactarnos</h3>
+                        <p class="text-white-75 font-weight-light mb-3">Apreciamos mucho que te hallas dedicado tiempo
+                            a escribirnos. Recuerda, si quieres estar al tanto de nuestro trabajo puedes visitarnos frecuentemente o seguirnos en
+                            nuestras redes sociales.</p>
+                        <div class="modal-social-media-btn">
+                            <a href="https://facebook.com/zuntek " class="mx-3 mx-lg-0"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.linkedin.com/company/zuntek" class="mx-3 ml-lg-4"><i class="fab fa-linkedin"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="670301836481595"
+     theme_color="#6a6884"
+     logged_in_greeting="Hola! Como podemos ayudarte?"
+     logged_out_greeting="Hola! Como podemos ayudarte?">
+</div>
+
+<!-- Footer -->
+<footer class="page-section bg-primary-color">
+    <hr>
+    <div class="container">
+        <div class="row py-2 text-center">
+            <p class="w-100">Hecho con <i class="fa fa-heart" aria-hidden="true"></i> en Cuba &copy;
+                <script>document.write(new Date().getFullYear());</script>
+                Zuntek
+            </p>
+        </div>
+    </div>
+</footer>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            xfbml: true,
+            version: 'v6.0'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Bootstrap and Jquery JS -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Third party plugin JS -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/main.js"></script>
 </body>
 </html>
