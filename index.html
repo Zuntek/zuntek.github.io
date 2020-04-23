@@ -5,17 +5,8 @@
     <meta name="google-site-verification" content="pfLYJGdbNQwbN_9X49yXOAAKzMU5WiDNEnUeAyvbHa0"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164219733-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    <script src="js/google.tag.manager.js"></script>
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'UA-164219733-1');
-    </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -50,8 +41,7 @@
 <!-- Nav bar -->
 <nav class="navbar navbar-expand-md navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#top"><img src="img/logo/zuntek-logo.png"
-                                                                   alt="Zuntek Soluciones Informaticas para Cuba Logo"/></a>
+        <a class="navbar-brand js-scroll-trigger" href="#top" title="Zuntek Soluciones Informaticas para Cuba"><img src="img/logo/zuntek-logo.png" alt="Zuntek Soluciones Informaticas para Cuba"/></a>
         <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -343,7 +333,8 @@
      page_id="670301836481595"
      theme_color="#6a6884"
      logged_in_greeting="Hola! Como podemos ayudarte?"
-     logged_out_greeting="Hola! Como podemos ayudarte?">
+     logged_out_greeting="Hola! Como podemos ayudarte?"
+     greeting_dialog_display="hide">
 </div>
 <div id="fb-root"></div>
 
@@ -372,6 +363,9 @@
 <!-- Third party plugin JS -->
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+
+<!-- Schema.Org Markup -->
+<script src="js/schema.org-markup.json" type="application/ld+json"></script>
 
 <!-- Custom JS -->
 <script src="js/main.js"></script>
