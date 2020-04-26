@@ -1,7 +1,7 @@
 /*--- Colors ---*/
 
 :root {
-    --primary-color: #6a6884;
+    --primary-color: #4f5a6a;
     --primary-color-dark: #3e3e4b;
     --primary-color-light: #a896b0;
     --primary-color-grey: #cccccc;
@@ -162,11 +162,13 @@ footer .fa-heart {
 
 .navbar {
     background: transparent;
-    transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-    -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-    -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-    -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    transition: all 0.17s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -o-transition: all 0.17s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -moz-transition: all 0.17s cubic-bezier(0, 0, 0.58, 1) 0s;
+    -webkit-transition: all 0.17s cubic-bezier(0, 0, 0.58, 1) 0s;
+    margin-top: 1rem;
 }
+
 
 .navbar-light .navbar-toggler {
     border: none;
@@ -195,7 +197,8 @@ footer .fa-heart {
 }
 
 .navbar-brand img {
-    width: 80%;
+    width: 160px;
+    margin: 3px 3px;
 }
 
 .navbar-scrolled {
@@ -205,15 +208,15 @@ footer .fa-heart {
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .navbar {
-        background-color: var(--bg-main-color);
-        box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-        -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+        margin-top: 0px;
     }
+}
 
-    .navbar-nav .nav-item .nav-link {
+
+@media (max-width: 767px) {
+     .navbar-nav .nav-item .nav-link {
         line-height: 30px;
         margin-right: 0px;
         display: block;
@@ -225,7 +228,7 @@ footer .fa-heart {
 /*--- Header ---*/
 
 header.main-header {
-    padding-top: 4rem;
+    margin-top: -1.8rem;
     padding-bottom: 3rem;
     background: var(--bg-main-color);
 }

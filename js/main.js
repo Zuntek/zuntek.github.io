@@ -10,9 +10,12 @@
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            var header_size = 77;
+            if ($(window).width() <= 767)
+                header_size = 282;
             if (target.length) {
                 $('html, body').animate({
-                    scrollTop: (target.offset().top - 72)
+                    scrollTop: (target.offset().top - header_size)
                 }, 1000, "easeInOutExpo");
                 return false;
             }
@@ -51,6 +54,7 @@
         dots: false,
         responsiveClass: true,
         autoplay: 2500,
+        autoplayHoverPause: true,
         slideSpeed: 300,
         paginationSpeed: 500,
         responsive: {

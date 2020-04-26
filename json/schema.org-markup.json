@@ -1,0 +1,11 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Organization",
+  "url": "http://zuntek.github.io/",
+  "logo": "https://zuntek.github.io/img/logo/zuntek-logo.svg",
+  "description": "Equipo de ingenerios informáticos cubanos dedicada a la automatización de procesos, desarrollo de software y creación de soluciones informáticas para Cuba.",
+  "email": "zuntek.cu@gmail.com",
+  "name": "Zuntek",
+  "foundingDate": "2020-04-04",
+  "foundingLocation": "Cuba"
+}
