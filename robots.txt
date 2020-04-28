@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /
+
+Sitemap: http://www.zuntek.github.io/sitemap.xml
