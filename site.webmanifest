@@ -1,7 +1,6 @@
 {
     "name": "Zuntek - Soluciones Informáticas para Cuba",
     "short_name": "Zuntek",
-    "start_url": "/",
     "icons": [
         {
             "src": "img/assets/android-chrome-192x192.png",
